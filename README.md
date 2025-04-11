@@ -25,11 +25,11 @@ Features
 
 📁 Files
 
-index.html: Core structure and layout
+-> index.html: Core structure and layout
 
-styles.css: Custom styles and theme
+->styles.css: Custom styles and theme
 
-script.js: Geolocation logic, map interactions, and toast system
+->script.js: Geolocation logic, map interactions, and toast system
 
 📌 Project Purpose
 This project showcases real-world use of browser APIs and external mapping services. It’s ideal for learning how to combine front-end development with geospatial features in web apps.
