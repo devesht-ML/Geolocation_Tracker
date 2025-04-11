@@ -14,15 +14,17 @@ Features
 ✅ Responsive UI with clean styling and smooth toast notifications for user feedback.
 
 🛠️ Tech Stack
-HTML5 & CSS3 for structure and design
 
-Vanilla JavaScript for interactivity
+-> HTML5 & CSS3 for structure and design
 
-Google Maps JavaScript API for real-time mapping
+-> Vanilla JavaScript for interactivity
 
-Font Awesome for icons
+-> Google Maps JavaScript API for real-time mapping
+
+
 
 📁 Files
+
 index.html: Core structure and layout
 
 styles.css: Custom styles and theme
