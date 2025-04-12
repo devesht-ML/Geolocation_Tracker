@@ -1,6 +1,7 @@
 # Geolocation_Tracker
 GeoLocator Pro is an advanced geolocation web application built using HTML, CSS, JavaScript, and Google Maps API. It allows users to detect, display, and share their current geographic location with ease.API.
-Features
+# Features
+
 📍 Find My Location: Detects and shows your real-time GPS location using browser-based geolocation.
 
 🗺️ Interactive Map: Displays your position on an embedded Google Map with a dynamic marker and info window.
