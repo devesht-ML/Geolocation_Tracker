@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="An advanced geolocation application for BCA students" />
+  <title>GeoLocator Pro - BCA Student Project</title>
+  <!-- <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" /> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1><i class="fas fa-map-marker-alt"></i> GeoLocator Pro</h1>
+      <p class="subtitle"> Advanced Location Tracking System</p>
+    </header>
+
+    <main class="main-content">
+      <div class="controls">
+        <button id="locateBtn"><i class="fas fa-location-arrow"></i> <span>Find My Location</span></button>
+        <button id="resetBtn"><i class="fas fa-redo"></i> <span>Reset</span></button>
+        <button id="shareBtn"><i class="fas fa-share-alt"></i> <span>Share Location</span></button>
+      </div>
+
+      <div class="info-box">
+        <h2><i class="fas fa-info-circle"></i> Location Information</h2>
+        <div id="locationInfo">
+          <p>Click "Find My Location" to detect your current position</p>
+        </div>
+      </div>
+
+      <div id="map-container">
+        <div id="map" aria-label="Interactive map showing your location"></div>
+        <div class="map-overlay">
+          <button id="zoomInBtn" title="Zoom In"><i class="fas fa-search-plus"></i></button>
+          <button id="zoomOutBtn" title="Zoom Out"><i class="fas fa-search-minus"></i></button>
+          <button id="locateOnMapBtn" title="Recenter"><i class="fas fa-crosshairs"></i></button>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>BCA Project - Developed by <strong>Devesh Tiwari</strong> | <span id="currentYear"></span></p>
+    </footer>
+  </div>
+
+  <div id="toast" class="toast">
+    <i class="fas fa-check-circle"></i>
+    <span id="toastMessage">Message sent successfully</span>
+  </div>
+
+  <!-- <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script> -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyANzpqGYiJeA_9o_nJjmZzpz8SGK9lnlxk"></script>
+  <script src="script.js"></script>
+</body>
+</html>
